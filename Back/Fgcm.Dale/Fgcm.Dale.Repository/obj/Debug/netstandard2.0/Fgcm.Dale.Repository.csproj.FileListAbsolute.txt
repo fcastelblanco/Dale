@@ -1,0 +1,14 @@
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Repository\bin\Debug\netstandard2.0\Fgcm.Dale.Repository.deps.json
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Repository\bin\Debug\netstandard2.0\Fgcm.Dale.Repository.dll
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Repository\bin\Debug\netstandard2.0\Fgcm.Dale.Repository.pdb
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Repository\bin\Debug\netstandard2.0\Fgcm.Dale.Domain.dll
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Repository\bin\Debug\netstandard2.0\Fgcm.Dale.Infraestructure.dll
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Repository\bin\Debug\netstandard2.0\Fgcm.Dale.Domain.pdb
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Repository\bin\Debug\netstandard2.0\Fgcm.Dale.Infraestructure.pdb
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Repository\obj\Debug\netstandard2.0\Fgcm.Dale.Repository.csprojAssemblyReference.cache
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Repository\obj\Debug\netstandard2.0\Fgcm.Dale.Repository.AssemblyInfoInputs.cache
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Repository\obj\Debug\netstandard2.0\Fgcm.Dale.Repository.AssemblyInfo.cs
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Repository\obj\Debug\netstandard2.0\Fgcm.Dale.Repository.csproj.CoreCompileInputs.cache
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Repository\obj\Debug\netstandard2.0\Fgcm.Dale.Repository.csproj.CopyComplete
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Repository\obj\Debug\netstandard2.0\Fgcm.Dale.Repository.dll
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Repository\obj\Debug\netstandard2.0\Fgcm.Dale.Repository.pdb

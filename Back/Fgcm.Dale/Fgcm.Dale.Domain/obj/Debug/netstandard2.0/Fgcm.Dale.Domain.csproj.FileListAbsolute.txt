@@ -1,0 +1,9 @@
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Domain\bin\Debug\netstandard2.0\Fgcm.Dale.Domain.deps.json
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Domain\bin\Debug\netstandard2.0\Fgcm.Dale.Domain.dll
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Domain\obj\Debug\netstandard2.0\Fgcm.Dale.Domain.csprojAssemblyReference.cache
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Domain\obj\Debug\netstandard2.0\Fgcm.Dale.Domain.AssemblyInfoInputs.cache
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Domain\obj\Debug\netstandard2.0\Fgcm.Dale.Domain.AssemblyInfo.cs
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Domain\bin\Debug\netstandard2.0\Fgcm.Dale.Domain.pdb
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Domain\obj\Debug\netstandard2.0\Fgcm.Dale.Domain.csproj.CoreCompileInputs.cache
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Domain\obj\Debug\netstandard2.0\Fgcm.Dale.Domain.dll
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Domain\obj\Debug\netstandard2.0\Fgcm.Dale.Domain.pdb

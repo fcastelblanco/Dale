@@ -1,0 +1,9 @@
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Infraestructure\bin\Debug\netstandard2.0\Fgcm.Dale.Infraestructure.deps.json
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Infraestructure\bin\Debug\netstandard2.0\Fgcm.Dale.Infraestructure.dll
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Infraestructure\obj\Debug\netstandard2.0\Fgcm.Dale.Infraestructure.AssemblyInfoInputs.cache
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Infraestructure\obj\Debug\netstandard2.0\Fgcm.Dale.Infraestructure.AssemblyInfo.cs
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Infraestructure\bin\Debug\netstandard2.0\Fgcm.Dale.Infraestructure.pdb
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Infraestructure\obj\Debug\netstandard2.0\Fgcm.Dale.Infraestructure.csprojAssemblyReference.cache
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Infraestructure\obj\Debug\netstandard2.0\Fgcm.Dale.Infraestructure.csproj.CoreCompileInputs.cache
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Infraestructure\obj\Debug\netstandard2.0\Fgcm.Dale.Infraestructure.dll
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Infraestructure\obj\Debug\netstandard2.0\Fgcm.Dale.Infraestructure.pdb

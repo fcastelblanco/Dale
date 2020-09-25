@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyVersion>1.24.9.2020</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fgcm.Dale.Domain\Fgcm.Dale.Domain.csproj" />
+    <ProjectReference Include="..\Fgcm.Dale.Infraestructure\Fgcm.Dale.Infraestructure.csproj" />
+  </ItemGroup>
+
+</Project>

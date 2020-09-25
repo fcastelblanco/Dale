@@ -1,0 +1,53 @@
+<h1>
+    Product
+</h1>
+
+<form [formGroup]="product">
+    <table style="width: 100%">
+        <tr>
+            <td>
+                <label>
+                    Nombre
+                </label>
+                <br>
+                <input type="text" formControlName="name" />
+            </td>
+            <td>
+                <label>
+                    Costo
+                </label>
+                <br>
+                <input type="number" formControlName="cost" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="submit" (click)="save()">Guardar</button>
+            </td>
+        </tr>
+    </table>
+</form>
+
+<table style="width: 100%;">
+    <thead>
+        <tr>
+            <td>
+                Nombre
+            </td>
+            <td>
+                Costo
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of producList">
+            <td>
+                {{item.name}}
+            </td>
+            <td>
+                {{item.cost | currency}}
+            </td>
+        </tr>
+    </tbody>
+
+</table>

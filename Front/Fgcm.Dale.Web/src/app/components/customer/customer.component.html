@@ -1,0 +1,82 @@
+<h1>
+    Customer
+</h1>
+
+<form [formGroup]="customer">
+    <table style="width: 100%">
+        <tr>
+            <td>
+                <label>
+                    Nombre
+                </label>
+                <br>
+                <input type="text" formControlName="name" />
+            </td>
+            <td>
+                <label>
+                    Apellido
+                </label>
+                <br>
+                <input type="text" formControlName="lastName" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    Cédula
+                </label>
+                <br>
+                <input type="text" formControlName="documentNumber" />
+            </td>
+            <td>
+                <label>
+                    Phone
+                </label>
+                <br>
+                <input type="text" formControlName="phone" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="submit" (click)="save()">Guardar</button>
+            </td>
+        </tr>
+    </table>
+</form>
+
+
+<table style="width: 100%;">
+    <thead>
+        <tr>
+            <td>
+                Nombre
+            </td>
+            <td>
+                Apellido
+            </td>
+            <td>
+                Cédula
+            </td>
+            <td>
+                Teléfono
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of customerList">
+            <td>
+                {{item.name}}
+            </td>
+            <td>
+                {{item.lastName}}
+            </td>
+            <td>
+                {{item.documentNumber}}
+            </td>
+            <td>
+                {{item.phone}}
+            </td>
+        </tr>
+    </tbody>
+
+</table>

@@ -1,0 +1,108 @@
+<h1>
+    Sale
+</h1>
+
+<button type="button" (click)="newSale();">
+    Nueva venta
+</button>
+
+<form [formGroup]="saleHeader" >
+    <table style="width: 100%;">
+        <tr>
+            <td >
+                <label>
+                    Cliente
+                </label>
+                <br>
+                <select formControlName="customer" [disabled]="customerSaved">
+                    <option value="" disabled>Elija un cliente</option>
+                    <option *ngFor="let customer of customerList" [ngValue]="customer.id">{{customer.name}}
+                        {{customer.lastName}}</option>
+                </select>
+            </td>
+            <td >
+                <label>
+                    Total
+                </label>
+                <br>
+                <h1>
+                    {{saleModel.total | currency}}
+                </h1>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button type="button" (click)="saveCustomer()" [disabled]="customerSaved">
+                    Guardar
+                </button>
+            </td>
+        </tr>
+    </table>
+</form>
+
+<form [formGroup]="saleDetail">
+    <table style="width: 100%;">
+        <tr>
+            <td>
+                <label>
+                    Producto
+                </label>
+                <br>
+                <select formControlName="product">
+                    <option value="" disabled>Elija un producto</option>
+                    <option *ngFor="let product of productList" [ngValue]="product.id">{{product.name}}
+                        {{product.cost | currency}}</option>
+                </select>
+            </td>
+            <td>
+                <label>
+                    Cantidad
+                </label>
+                <br>
+                <input type="number" formControlName="quantity" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button type="button" (click)="save()">Guardar</button>
+            </td>
+        </tr>
+    </table>
+</form>
+
+<table style="width: 100%;">
+    <tr>
+        <td>
+            Item
+        </td>
+        <td>
+            Descripción
+        </td>
+        <td>
+            Cantidad
+        </td>
+        <td>
+            Costo
+        </td>
+        <td>
+            Total
+        </td>
+    </tr>
+    <tr *ngFor="let item of saleModel.saleDetailDtos, let i = index">
+        <td>
+            {{i + 1}}
+        </td>
+        <td>
+            {{getProductName(item.productId)}}
+        </td>
+        <td>
+            {{item.quantity}}
+        </td>
+        <td>
+            {{getProductCost(item.productId) | currency}}
+        </td>
+        <td>
+            {{item.quantity * getProductCost(item.productId) | currency}}
+        </td>
+    </tr>
+</table>
