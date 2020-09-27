@@ -6,12 +6,8 @@ D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Data\obj\Debug\netstandard2.0\Fgcm
 D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Data\bin\Debug\netstandard2.0\Fgcm.Dale.Domain.dll
 D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Data\bin\Debug\netstandard2.0\appsettings.json
 D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Data\bin\Debug\netstandard2.0\Fgcm.Dale.Data.pdb
-D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Data\bin\Debug\netstandard2.0\Fgcm.Dale.Infraestructure.dll
-D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Data\bin\Debug\netstandard2.0\Fgcm.Dale.Repository.dll
 D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Data\bin\Debug\netstandard2.0\Fgcm.Dale.Domain.pdb
-D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Data\bin\Debug\netstandard2.0\Fgcm.Dale.Repository.pdb
-D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Data\bin\Debug\netstandard2.0\Fgcm.Dale.Infraestructure.pdb
-D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Data\obj\Debug\netstandard2.0\Fgcm.Dale.Data.csproj.CoreCompileInputs.cache
 D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Data\obj\Debug\netstandard2.0\Fgcm.Dale.Data.csproj.CopyComplete
 D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Data\obj\Debug\netstandard2.0\Fgcm.Dale.Data.dll
 D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Data\obj\Debug\netstandard2.0\Fgcm.Dale.Data.pdb
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Data\obj\Debug\netstandard2.0\Fgcm.Dale.Data.csproj.CoreCompileInputs.cache

@@ -26,11 +26,19 @@ namespace Fgcm.Dale.WebApi.Controllers
             return Ok("Welcome !");
         }
 
+        [Route("createProductAsync")]
+        [HttpPost]
+        public async Task<IActionResult> CreateProductAsync(Product product)
+        {
+            var data = await _daleApplicationService.CreateAsync(product);
+            return Ok(data);
+        }
+
         [Route("createProduct")]
         [HttpPost]
-        public async Task<IActionResult> CreateProduct(Product product)
+        public IActionResult CreateProduct(Product product)
         {
-            var data = await _daleApplicationService.Create(product);
+            var data = _daleApplicationService.Create(product);
             return Ok(data);
         }
 

@@ -32,8 +32,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Data\\Fgcm.Dale.Data.csproj": {
-                "projectPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Data\\Fgcm.Dale.Data.csproj"
+              "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Repository\\Fgcm.Dale.Repository.csproj": {
+                "projectPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Repository\\Fgcm.Dale.Repository.csproj"
               }
             }
           }
@@ -50,6 +50,10 @@
             "Autofac": {
               "target": "Package",
               "version": "[5.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -102,9 +106,6 @@
             "projectReferences": {
               "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\Fgcm.Dale.Domain.csproj": {
                 "projectPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\Fgcm.Dale.Domain.csproj"
-              },
-              "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Repository\\Fgcm.Dale.Repository.csproj": {
-                "projectPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Repository\\Fgcm.Dale.Repository.csproj"
               }
             }
           }
@@ -121,6 +122,10 @@
             "Autofac": {
               "target": "Package",
               "version": "[5.2.0, )"
+            },
+            "Autofac.Configuration": {
+              "target": "Package",
+              "version": "[5.1.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -252,7 +257,11 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Data\\Fgcm.Dale.Data.csproj": {
+                "projectPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Data\\Fgcm.Dale.Data.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -264,6 +273,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.8, )"
@@ -335,6 +348,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

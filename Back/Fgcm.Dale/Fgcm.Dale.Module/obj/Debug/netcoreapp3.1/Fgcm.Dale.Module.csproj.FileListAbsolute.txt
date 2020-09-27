@@ -54,12 +54,8 @@ D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Module\bin\Debug\netcoreapp3.1\run
 D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Module\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Module\bin\Debug\netcoreapp3.1\Fgcm.Dale.Data.dll
 D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Module\bin\Debug\netcoreapp3.1\Fgcm.Dale.Domain.dll
-D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Module\bin\Debug\netcoreapp3.1\Fgcm.Dale.Infraestructure.dll
-D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Module\bin\Debug\netcoreapp3.1\Fgcm.Dale.Repository.dll
 D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Module\bin\Debug\netcoreapp3.1\Fgcm.Dale.Data.pdb
 D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Module\bin\Debug\netcoreapp3.1\Fgcm.Dale.Domain.pdb
-D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Module\bin\Debug\netcoreapp3.1\Fgcm.Dale.Infraestructure.pdb
-D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Module\bin\Debug\netcoreapp3.1\Fgcm.Dale.Repository.pdb
 D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Module\obj\Debug\netcoreapp3.1\Fgcm.Dale.Module.csprojAssemblyReference.cache
 D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Module\obj\Debug\netcoreapp3.1\Fgcm.Dale.Module.AssemblyInfoInputs.cache
 D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Module\obj\Debug\netcoreapp3.1\Fgcm.Dale.Module.AssemblyInfo.cs
@@ -69,3 +65,4 @@ D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Module\obj\Debug\netcoreapp3.1\Fgc
 D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Module\obj\Debug\netcoreapp3.1\Fgcm.Dale.Module.genruntimeconfig.cache
 D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Module\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Module\obj\Debug\netcoreapp3.1\Fgcm.Dale.Module.csproj.CoreCompileInputs.cache
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Module\bin\Debug\netcoreapp3.1\Autofac.Configuration.dll

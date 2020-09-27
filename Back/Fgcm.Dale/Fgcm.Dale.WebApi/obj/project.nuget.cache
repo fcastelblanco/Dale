@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "2QZPhltzay9kugbBqlv4Sp85JXcPfRSrmmiU1vQYR6FQ+UXX6+MGx9QjRB0TD+K8kZxMCgaAlR7l1BCdHAwo5g==",
+  "dgSpecHash": "6XtIvZonTErvrB+L1g0GWC/t6ams2IZt2t52TGszUEDut4On3H2ykL1Hb+yeyp609BV8XXNYkJ1ZggaXcsbzkg==",
   "success": true,
   "projectFilePath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.WebApi\\Fgcm.Dale.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\autofac\\5.2.0\\autofac.5.2.0.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\autofac.configuration\\5.1.0\\autofac.configuration.5.1.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\autofac.extensions.dependencyinjection\\6.0.0\\autofac.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

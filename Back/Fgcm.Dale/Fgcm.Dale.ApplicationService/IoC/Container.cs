@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Autofac;
-using Fgcm.Dale.Data.IoC;
+﻿using Autofac;
+using Fgcm.Dale.Repository.IoC;
 
 namespace Fgcm.Dale.ApplicationService.IoC
 {
@@ -10,7 +7,7 @@ namespace Fgcm.Dale.ApplicationService.IoC
     {
         public static ContainerBuilder RegisterApplicationServiceResources(this ContainerBuilder containerBuilder)
         {
-            containerBuilder.RegisterDataResources();
+            containerBuilder.RegisterRepository();
 
             containerBuilder.RegisterType<DaleApplicationService>().As<IDaleApplicationService>();
 

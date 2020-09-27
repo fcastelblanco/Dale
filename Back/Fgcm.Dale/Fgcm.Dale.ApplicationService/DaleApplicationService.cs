@@ -1,37 +1,68 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Fgcm.Dale.Domain.Dtos;
 using Fgcm.Dale.Domain.Entities;
-using Fgcm.Dale.Repository;
+using Fgcm.Dale.Infraestructure;
+using Fgcm.Dale.Repository.Definitions.Concrete;
 using Microsoft.EntityFrameworkCore;
 
 namespace Fgcm.Dale.ApplicationService
 {
     public class DaleApplicationService : IDaleApplicationService
     {
-        private readonly IProductRepository _productRepository;
         private readonly ICustomerRepository _customerRepository;
-        private readonly ISaleRepository _saleRepository;
+        private readonly IProductRepository _productRepository;
         private readonly ISaleDetailRepository _saleDetailRepository;
+        private readonly ISaleRepository _saleRepository;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public DaleApplicationService(IProductRepository productRepository, ICustomerRepository customerRepository, ISaleRepository saleRepository, ISaleDetailRepository saleDetailRepository)
+        public DaleApplicationService(IProductRepository productRepository, ICustomerRepository customerRepository,
+            ISaleRepository saleRepository, ISaleDetailRepository saleDetailRepository, IUnitOfWork unitOfWork)
         {
             _productRepository = productRepository;
             _customerRepository = customerRepository;
             _saleRepository = saleRepository;
             _saleDetailRepository = saleDetailRepository;
+            _unitOfWork = unitOfWork;
         }
 
-        public async Task<Product> Create(Product product)
+        public async Task<Product> CreateAsync(Product product)
         {
-            await _productRepository.Insert(product);
-            return product;
+            try
+            {
+                _productRepository.Create(product);
+                await _unitOfWork.CommitAsync();
+                return product;
+            }
+            catch (Exception e)
+            {
+                Debug.WriteLine(e);
+                return null;
+            }
+        }
+
+        public Product Create(Product product)
+        {
+            try
+            {
+                _productRepository.Create(product);
+                _unitOfWork.Commit();
+                return product;
+            }
+            catch (Exception e)
+            {
+                Debug.WriteLine(e);
+                return null;
+            }
         }
 
         public async Task<Customer> Create(Customer customer)
         {
-            await _customerRepository.Insert(customer);
+            _customerRepository.Create(customer);
+            await _unitOfWork.CommitAsync();
             return customer;
         }
 
@@ -53,18 +84,17 @@ namespace Fgcm.Dale.ApplicationService
                 Total = saleDto.Total
             };
 
-            await _saleRepository.Insert(sale);
+            _saleRepository.Create(sale);
 
             foreach (var saleDtoSaleDetailDto in saleDto.SaleDetailDtos)
-            {
-                await _saleDetailRepository.Insert(new SaleDetail
+                _saleDetailRepository.Create(new SaleDetail
                 {
                     SaleId = sale.Id,
                     ProductId = saleDtoSaleDetailDto.ProductId,
                     Quantity = saleDtoSaleDetailDto.Quantity
                 });
-            }
 
+            await _unitOfWork.CommitAsync();
             return true;
         }
 
@@ -81,7 +111,7 @@ namespace Fgcm.Dale.ApplicationService
                 {
                     CustomerId = allSale.CustomerId,
                     Total = allSale.Total,
-                    SaleDetailDtos = saleDetails.Select( x => new SaleDetailDto
+                    SaleDetailDtos = saleDetails.Select(x => new SaleDetailDto
                     {
                         ProductId = x.ProductId,
                         Quantity = x.Quantity

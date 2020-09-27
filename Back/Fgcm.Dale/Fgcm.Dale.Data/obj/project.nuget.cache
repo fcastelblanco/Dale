@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "CfBB76dJs7jxUWsCThI52ON4LgrcRHn7j6JsT42ZPsn7bk8YxmLdaKTgUxKlP1U1cycc6ONj0ePh47IwsfdFGg==",
+  "dgSpecHash": "34xZ2WuLVQLo7aPiMHcqhQJK6yGJzYWsS6B5EuLZqvwbQkIdG/QZhxB2qHj4a8d3UlxqnRMtj8JlLQmr2Lt3Xw==",
   "success": true,
   "projectFilePath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Data\\Fgcm.Dale.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\autofac\\5.2.0\\autofac.5.2.0.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\autofac.configuration\\5.1.0\\autofac.configuration.5.1.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0-rc.1.20451.14\\microsoft.bcl.asyncinterfaces.5.0.0-rc.1.20451.14.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

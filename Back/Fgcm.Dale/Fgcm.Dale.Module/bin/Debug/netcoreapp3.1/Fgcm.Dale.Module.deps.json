@@ -25,6 +25,19 @@
           }
         }
       },
+      "Autofac.Configuration/5.1.0": {
+        "dependencies": {
+          "Autofac": "5.2.0",
+          "Microsoft.Extensions.Configuration": "5.0.0-rc.1.20451.14",
+          "Microsoft.Extensions.Configuration.Binder": "3.1.8"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.Configuration.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
@@ -1116,8 +1129,8 @@
       "Fgcm.Dale.Data/1.0.0": {
         "dependencies": {
           "Autofac": "5.2.0",
+          "Autofac.Configuration": "5.1.0",
           "Fgcm.Dale.Domain": "1.0.0",
-          "Fgcm.Dale.Repository": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.8",
           "Microsoft.Extensions.Configuration.Json": "5.0.0-rc.1.20451.14"
@@ -1132,23 +1145,6 @@
         },
         "runtime": {
           "Fgcm.Dale.Domain.dll": {}
-        }
-      },
-      "Fgcm.Dale.Infraestructure/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "3.1.8"
-        },
-        "runtime": {
-          "Fgcm.Dale.Infraestructure.dll": {}
-        }
-      },
-      "Fgcm.Dale.Repository/1.0.0": {
-        "dependencies": {
-          "Fgcm.Dale.Domain": "1.0.0",
-          "Fgcm.Dale.Infraestructure": "1.0.0"
-        },
-        "runtime": {
-          "Fgcm.Dale.Repository.dll": {}
         }
       }
     }
@@ -1165,6 +1161,13 @@
       "sha512": "sha512-V8dBH0dsv75uDzl7Sw+HkhKDPUw2eXnlMjcSVMH+tLo2s67MpTKGyDj1pDcpR+IF2u4YRs0s3/x7R88YJzIWvg==",
       "path": "autofac/5.2.0",
       "hashPath": "autofac.5.2.0.nupkg.sha512"
+    },
+    "Autofac.Configuration/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Qcob6niJdxxWT1i2is6u+LucqTgzQXjKU9L4WnTc/HXZ0Dy/ok8LaSPMW3zcxV7z/ED7TqbXRlhNNYHYMm0qxA==",
+      "path": "autofac.configuration/5.1.0",
+      "hashPath": "autofac.configuration.5.1.0.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",
@@ -1914,16 +1917,6 @@
       "sha512": ""
     },
     "Fgcm.Dale.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Fgcm.Dale.Infraestructure/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Fgcm.Dale.Repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

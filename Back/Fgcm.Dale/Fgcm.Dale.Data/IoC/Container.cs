@@ -1,6 +1,6 @@
 ﻿using Autofac;
-using Fgcm.Dale.Data.Repository;
-using Fgcm.Dale.Repository;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace Fgcm.Dale.Data.IoC
 {
@@ -8,11 +8,17 @@ namespace Fgcm.Dale.Data.IoC
     {
         public static ContainerBuilder RegisterDataResources(this ContainerBuilder containerBuilder)
         {
-            containerBuilder.RegisterType<DaleContext>();
-            containerBuilder.RegisterType<CustomerRepository>().As<ICustomerRepository>();
-            containerBuilder.RegisterType<ProductRepository>().As<IProductRepository>();
-            containerBuilder.RegisterType<SaleDetailRepository>().As<ISaleDetailRepository>();
-            containerBuilder.RegisterType<SaleRepository>().As<ISaleRepository>();
+            var configurationBuilder = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json");
+
+            var configuration = configurationBuilder.Build();
+
+            containerBuilder.Register(x => new ConnectionStringProvider
+            {
+                ConnectionString = configuration.GetConnectionString("Fgcm.Dale")
+            }).As<IConnectionStringProvider>();
+
+            containerBuilder.RegisterType<DaleContext>().As<DbContext>();
 
             return containerBuilder;
         }

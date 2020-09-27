@@ -14,6 +14,20 @@
           "lib/netstandard2.0/Autofac.dll": {}
         }
       },
+      "Autofac.Configuration/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "5.0.0",
+          "Microsoft.Extensions.Configuration": "2.2.0",
+          "Microsoft.Extensions.Configuration.Binder": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Autofac.Configuration.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.Configuration.dll": {}
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/5.0.0-rc.1.20451.14": {
         "type": "package",
         "dependencies": {
@@ -1808,8 +1822,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Autofac": "5.2.0",
+          "Autofac.Configuration": "5.1.0",
           "Fgcm.Dale.Domain": "1.0.0",
-          "Fgcm.Dale.Repository": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.8",
           "Microsoft.Extensions.Configuration.Json": "5.0.0-rc.1.20451.14"
@@ -1838,6 +1852,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Autofac": "5.2.0",
+          "Fgcm.Dale.Data": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.8"
         },
         "compile": {
@@ -1851,6 +1867,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Autofac": "5.2.0",
           "Fgcm.Dale.Domain": "1.0.0",
           "Fgcm.Dale.Infraestructure": "1.0.0"
         },
@@ -1883,6 +1900,24 @@
         "lib/netstandard2.1/Autofac.dll",
         "lib/netstandard2.1/Autofac.pdb",
         "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
+    "Autofac.Configuration/5.1.0": {
+      "sha512": "Qcob6niJdxxWT1i2is6u+LucqTgzQXjKU9L4WnTc/HXZ0Dy/ok8LaSPMW3zcxV7z/ED7TqbXRlhNNYHYMm0qxA==",
+      "type": "package",
+      "path": "autofac.configuration/5.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.configuration.5.1.0.nupkg.sha512",
+        "autofac.configuration.nuspec",
+        "icon.png",
+        "lib/net461/Autofac.Configuration.dll",
+        "lib/net461/Autofac.Configuration.pdb",
+        "lib/net461/Autofac.Configuration.xml",
+        "lib/netstandard2.0/Autofac.Configuration.dll",
+        "lib/netstandard2.0/Autofac.Configuration.pdb",
+        "lib/netstandard2.0/Autofac.Configuration.xml"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/5.0.0-rc.1.20451.14": {
@@ -6544,7 +6579,8 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Autofac >= 5.2.0",
-      "Fgcm.Dale.Data >= 1.0.0",
+      "Fgcm.Dale.Repository >= 1.0.0",
+      "Microsoft.EntityFrameworkCore >= 3.1.8",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -6581,8 +6617,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Data\\Fgcm.Dale.Data.csproj": {
-              "projectPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Data\\Fgcm.Dale.Data.csproj"
+            "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Repository\\Fgcm.Dale.Repository.csproj": {
+              "projectPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Repository\\Fgcm.Dale.Repository.csproj"
             }
           }
         }
@@ -6599,6 +6635,10 @@
           "Autofac": {
             "target": "Package",
             "version": "[5.2.0, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[3.1.8, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",

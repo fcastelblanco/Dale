@@ -1,14 +1,15 @@
-﻿using Fgcm.Dale.Domain;
-using Fgcm.Dale.Domain.Entities;
+﻿using Fgcm.Dale.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 
 namespace Fgcm.Dale.Data
 {
     public class DaleContext : DbContext, IDaleContext
     {
-        public DaleContext() : base(new DbContextOptions<DaleContext>())
+        private readonly IConnectionStringProvider _connectionStringProvider;
+
+        public DaleContext(IConnectionStringProvider connectionStringProvider)
         {
+            _connectionStringProvider = connectionStringProvider;
         }
 
         public DbSet<Customer> Customers { get; set; }
@@ -18,12 +19,7 @@ namespace Fgcm.Dale.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            var builder = new ConfigurationBuilder()
-                .AddJsonFile("appsettings.json");
-
-            var configuration = builder.Build();
-
-            optionsBuilder.UseSqlServer(configuration.GetConnectionString("Fgcm.Dale"));
+            optionsBuilder.UseSqlServer(_connectionStringProvider.ConnectionString);
             base.OnConfiguring(optionsBuilder);
         }
 
