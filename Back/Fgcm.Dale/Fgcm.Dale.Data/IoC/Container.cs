@@ -1,4 +1,6 @@
 ﻿using Autofac;
+using Fgcm.Dale.Infraestructure.Definitions;
+using Fgcm.Dale.Infraestructure.Implementations;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
@@ -13,12 +15,10 @@ namespace Fgcm.Dale.Data.IoC
 
             var configuration = configurationBuilder.Build();
 
-            containerBuilder.Register(x => new ConnectionStringProvider
-            {
-                ConnectionString = configuration.GetConnectionString("Fgcm.Dale")
-            }).As<IConnectionStringProvider>();
+            containerBuilder.Register(x => new ConnectionStringProvider(configuration.GetConnectionString("Fgcm.Dale"))
+            ).As<IConnectionStringProvider>();
 
-            containerBuilder.RegisterType<DaleContext>().As<DbContext>();
+            containerBuilder.RegisterType<DaleContext>().As<DbContext>().InstancePerLifetimeScope();
 
             return containerBuilder;
         }

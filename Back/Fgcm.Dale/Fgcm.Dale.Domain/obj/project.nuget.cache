@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yi+puXO5eLWuy0qjw1YY7k4hHY7PchrGHvFJLC/9S3ShMwfUJyE6z4cF58xBCYGQvARGEDrnLHnGBPEF/zWjig==",
+  "dgSpecHash": "dOlsOLCGcoqY1sVPiVZCgqrqaiDmz5p2s73eKNosbik5Svs9lek3LHDYOTgjEpJdgTlovuN+NGPmuAolTo3glg==",
   "success": true,
-  "projectFilePath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\Fgcm.Dale.Domain.csproj",
+  "projectFilePath": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\Fgcm.Dale.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

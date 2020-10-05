@@ -1,7 +1,8 @@
 ﻿using System.Threading.Tasks;
+using Fgcm.Dale.Infraestructure.Definitions;
 using Microsoft.EntityFrameworkCore;
 
-namespace Fgcm.Dale.Infraestructure
+namespace Fgcm.Dale.Infraestructure.Implementations
 {
     public class UnitOfWork : IUnitOfWork
     {
@@ -10,7 +11,7 @@ namespace Fgcm.Dale.Infraestructure
             DbContext = dbContext;
         }
 
-        public DbContext DbContext { get; }
+        public DbContext DbContext { get; set; }
 
         public int Commit()
         {

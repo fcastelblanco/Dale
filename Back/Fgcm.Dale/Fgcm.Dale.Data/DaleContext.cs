@@ -1,4 +1,6 @@
-﻿using Fgcm.Dale.Domain.Entities;
+﻿using System.Linq;
+using Fgcm.Dale.Domain.Entities;
+using Fgcm.Dale.Infraestructure.Definitions;
 using Microsoft.EntityFrameworkCore;
 
 namespace Fgcm.Dale.Data
@@ -7,6 +9,12 @@ namespace Fgcm.Dale.Data
     {
         private readonly IConnectionStringProvider _connectionStringProvider;
 
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer(_connectionStringProvider.ConnectionString);
+            base.OnConfiguring(optionsBuilder);
+        }
+
         public DaleContext(IConnectionStringProvider connectionStringProvider)
         {
             _connectionStringProvider = connectionStringProvider;
@@ -14,18 +22,15 @@ namespace Fgcm.Dale.Data
 
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Product> Products { get; set; }
-        public DbSet<Sale> Sales { get; set; }
+        public DbSet<Sale> Sales { get; set; }  
         public DbSet<SaleDetail> SaleDetails { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public override int SaveChanges()
         {
-            optionsBuilder.UseSqlServer(_connectionStringProvider.ConnectionString);
-            base.OnConfiguring(optionsBuilder);
-        }
+            var modifiedEntries = ChangeTracker.Entries()
+                .Where(x => x.State == EntityState.Added || x.State == EntityState.Modified).ToList();
 
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            base.OnModelCreating(builder);
+            return base.SaveChanges();
         }
     }
 }

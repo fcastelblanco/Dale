@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6XtIvZonTErvrB+L1g0GWC/t6ams2IZt2t52TGszUEDut4On3H2ykL1Hb+yeyp609BV8XXNYkJ1ZggaXcsbzkg==",
+  "dgSpecHash": "BIZAvQiHNy6NhL+HH+JQXEnj9laoF1NiNLTdDLckc+JI+PvXZaHdJR8UnrTHLjcrtjWMIPu9lM89fQHlElggQA==",
   "success": true,
-  "projectFilePath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.WebApi\\Fgcm.Dale.WebApi.csproj",
+  "projectFilePath": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.WebApi\\Fgcm.Dale.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\autofac\\5.2.0\\autofac.5.2.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\autofac.configuration\\5.1.0\\autofac.configuration.5.1.0.nupkg.sha512",

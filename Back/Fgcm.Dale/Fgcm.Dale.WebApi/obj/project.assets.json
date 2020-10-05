@@ -1603,6 +1603,7 @@
           "Autofac": "5.2.0",
           "Autofac.Configuration": "5.1.0",
           "Fgcm.Dale.Domain": "1.0.0",
+          "Fgcm.Dale.Infraestructure": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.8",
           "Microsoft.Extensions.Configuration.Json": "5.0.0-rc.1.20451.14"
@@ -1632,8 +1633,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Autofac": "5.2.0",
-          "Fgcm.Dale.Data": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "3.1.8"
+          "Microsoft.EntityFrameworkCore": "3.1.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.8"
         },
         "compile": {
           "bin/placeholder/Fgcm.Dale.Infraestructure.dll": {}
@@ -1647,6 +1648,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Autofac": "5.2.0",
+          "Fgcm.Dale.Data": "1.0.0",
           "Fgcm.Dale.Domain": "1.0.0",
           "Fgcm.Dale.Infraestructure": "1.0.0"
         },
@@ -6052,11 +6054,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.WebApi\\Fgcm.Dale.WebApi.csproj",
+      "projectUniqueName": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.WebApi\\Fgcm.Dale.WebApi.csproj",
       "projectName": "Fgcm.Dale.WebApi",
-      "projectPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.WebApi\\Fgcm.Dale.WebApi.csproj",
+      "projectPath": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.WebApi\\Fgcm.Dale.WebApi.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.WebApi\\obj\\",
+      "outputPath": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -6077,11 +6079,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.ApplicationService\\Fgcm.Dale.ApplicationService.csproj": {
-              "projectPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.ApplicationService\\Fgcm.Dale.ApplicationService.csproj"
+            "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.ApplicationService\\Fgcm.Dale.ApplicationService.csproj": {
+              "projectPath": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.ApplicationService\\Fgcm.Dale.ApplicationService.csproj"
             },
-            "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\Fgcm.Dale.Domain.csproj": {
-              "projectPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\Fgcm.Dale.Domain.csproj"
+            "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\Fgcm.Dale.Domain.csproj": {
+              "projectPath": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\Fgcm.Dale.Domain.csproj"
             }
           }
         }
@@ -6122,7 +6124,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

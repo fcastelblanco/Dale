@@ -66,3 +66,5 @@ D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Module\obj\Debug\netcoreapp3.1\Fgc
 D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Module\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Module\obj\Debug\netcoreapp3.1\Fgcm.Dale.Module.csproj.CoreCompileInputs.cache
 D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Module\bin\Debug\netcoreapp3.1\Autofac.Configuration.dll
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Module\bin\Debug\netcoreapp3.1\Fgcm.Dale.Infraestructure.dll
+D:\Applications\Date\Back\Fgcm.Dale\Fgcm.Dale.Module\bin\Debug\netcoreapp3.1\Fgcm.Dale.Infraestructure.pdb

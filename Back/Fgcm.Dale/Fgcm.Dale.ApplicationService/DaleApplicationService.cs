@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Fgcm.Dale.Domain.Dtos;
 using Fgcm.Dale.Domain.Entities;
-using Fgcm.Dale.Infraestructure;
+using Fgcm.Dale.Infraestructure.Definitions;
 using Fgcm.Dale.Repository.Definitions.Concrete;
 using Microsoft.EntityFrameworkCore;
 

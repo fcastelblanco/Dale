@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Fgcm.Dale.Domain;
-using Fgcm.Dale.Domain.Entities;
+﻿using Fgcm.Dale.Domain.Entities;
+using Fgcm.Dale.Infraestructure.Definitions;
 using Microsoft.EntityFrameworkCore;
 
 namespace Fgcm.Dale.Data

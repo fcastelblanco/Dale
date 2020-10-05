@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Linq;
 using System.Linq.Expressions;
-using Fgcm.Dale.Infraestructure;
+using Fgcm.Dale.Infraestructure.Definitions;
+using Fgcm.Dale.Infraestructure.Implementations;
 using Fgcm.Dale.Repository.Definitions.Base;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,11 +10,11 @@ namespace Fgcm.Dale.Repository.Implementantions.Base
 {
     public class Repository<TEntity> : IDisposable, IRepository<TEntity> where TEntity : class
     {
-        private readonly IUnitOfWork _unitOfWork;
+        private readonly UnitOfWork _unitOfWork;
 
         public Repository(IUnitOfWork unitOfWork)
         {
-            _unitOfWork = unitOfWork;
+            _unitOfWork = unitOfWork as UnitOfWork;
         }
 
         public void Dispose()

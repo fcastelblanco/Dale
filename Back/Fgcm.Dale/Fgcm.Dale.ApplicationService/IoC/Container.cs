@@ -9,7 +9,7 @@ namespace Fgcm.Dale.ApplicationService.IoC
         {
             containerBuilder.RegisterRepository();
 
-            containerBuilder.RegisterType<DaleApplicationService>().As<IDaleApplicationService>();
+            containerBuilder.RegisterType<DaleApplicationService>().As<IDaleApplicationService>().InstancePerLifetimeScope();
 
             return containerBuilder;
         }

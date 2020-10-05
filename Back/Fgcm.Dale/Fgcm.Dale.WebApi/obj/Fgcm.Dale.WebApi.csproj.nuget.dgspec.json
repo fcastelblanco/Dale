@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.WebApi\\Fgcm.Dale.WebApi.csproj": {}
+    "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.WebApi\\Fgcm.Dale.WebApi.csproj": {}
   },
   "projects": {
-    "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.ApplicationService\\Fgcm.Dale.ApplicationService.csproj": {
+    "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.ApplicationService\\Fgcm.Dale.ApplicationService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.ApplicationService\\Fgcm.Dale.ApplicationService.csproj",
+        "projectUniqueName": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.ApplicationService\\Fgcm.Dale.ApplicationService.csproj",
         "projectName": "Fgcm.Dale.ApplicationService",
-        "projectPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.ApplicationService\\Fgcm.Dale.ApplicationService.csproj",
+        "projectPath": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.ApplicationService\\Fgcm.Dale.ApplicationService.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.ApplicationService\\obj\\",
+        "outputPath": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.ApplicationService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -32,8 +32,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Repository\\Fgcm.Dale.Repository.csproj": {
-                "projectPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Repository\\Fgcm.Dale.Repository.csproj"
+              "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Repository\\Fgcm.Dale.Repository.csproj": {
+                "projectPath": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Repository\\Fgcm.Dale.Repository.csproj"
               }
             }
           }
@@ -72,18 +72,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Data\\Fgcm.Dale.Data.csproj": {
+    "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Data\\Fgcm.Dale.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Data\\Fgcm.Dale.Data.csproj",
+        "projectUniqueName": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Data\\Fgcm.Dale.Data.csproj",
         "projectName": "Fgcm.Dale.Data",
-        "projectPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Data\\Fgcm.Dale.Data.csproj",
+        "projectPath": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Data\\Fgcm.Dale.Data.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Data\\obj\\",
+        "outputPath": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -104,8 +104,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\Fgcm.Dale.Domain.csproj": {
-                "projectPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\Fgcm.Dale.Domain.csproj"
+              "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\Fgcm.Dale.Domain.csproj": {
+                "projectPath": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\Fgcm.Dale.Domain.csproj"
+              },
+              "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Infraestructure\\Fgcm.Dale.Infraestructure.csproj": {
+                "projectPath": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Infraestructure\\Fgcm.Dale.Infraestructure.csproj"
               }
             }
           }
@@ -162,18 +165,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\Fgcm.Dale.Domain.csproj": {
+    "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\Fgcm.Dale.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\Fgcm.Dale.Domain.csproj",
+        "projectUniqueName": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\Fgcm.Dale.Domain.csproj",
         "projectName": "Fgcm.Dale.Domain",
-        "projectPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\Fgcm.Dale.Domain.csproj",
+        "projectPath": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\Fgcm.Dale.Domain.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\obj\\",
+        "outputPath": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -226,18 +229,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Infraestructure\\Fgcm.Dale.Infraestructure.csproj": {
+    "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Infraestructure\\Fgcm.Dale.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Infraestructure\\Fgcm.Dale.Infraestructure.csproj",
+        "projectUniqueName": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Infraestructure\\Fgcm.Dale.Infraestructure.csproj",
         "projectName": "Fgcm.Dale.Infraestructure",
-        "projectPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Infraestructure\\Fgcm.Dale.Infraestructure.csproj",
+        "projectPath": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Infraestructure\\Fgcm.Dale.Infraestructure.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Infraestructure\\obj\\",
+        "outputPath": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -257,11 +260,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {
-              "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Data\\Fgcm.Dale.Data.csproj": {
-                "projectPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Data\\Fgcm.Dale.Data.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -278,6 +277,10 @@
               "version": "[5.2.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.8, )"
             },
@@ -298,18 +301,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Repository\\Fgcm.Dale.Repository.csproj": {
+    "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Repository\\Fgcm.Dale.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Repository\\Fgcm.Dale.Repository.csproj",
+        "projectUniqueName": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Repository\\Fgcm.Dale.Repository.csproj",
         "projectName": "Fgcm.Dale.Repository",
-        "projectPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Repository\\Fgcm.Dale.Repository.csproj",
+        "projectPath": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Repository\\Fgcm.Dale.Repository.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Repository\\obj\\",
+        "outputPath": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -330,11 +333,14 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\Fgcm.Dale.Domain.csproj": {
-                "projectPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\Fgcm.Dale.Domain.csproj"
+              "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Data\\Fgcm.Dale.Data.csproj": {
+                "projectPath": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Data\\Fgcm.Dale.Data.csproj"
               },
-              "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Infraestructure\\Fgcm.Dale.Infraestructure.csproj": {
-                "projectPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Infraestructure\\Fgcm.Dale.Infraestructure.csproj"
+              "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\Fgcm.Dale.Domain.csproj": {
+                "projectPath": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\Fgcm.Dale.Domain.csproj"
+              },
+              "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Infraestructure\\Fgcm.Dale.Infraestructure.csproj": {
+                "projectPath": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Infraestructure\\Fgcm.Dale.Infraestructure.csproj"
               }
             }
           }
@@ -369,18 +375,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.WebApi\\Fgcm.Dale.WebApi.csproj": {
+    "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.WebApi\\Fgcm.Dale.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.WebApi\\Fgcm.Dale.WebApi.csproj",
+        "projectUniqueName": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.WebApi\\Fgcm.Dale.WebApi.csproj",
         "projectName": "Fgcm.Dale.WebApi",
-        "projectPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.WebApi\\Fgcm.Dale.WebApi.csproj",
+        "projectPath": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.WebApi\\Fgcm.Dale.WebApi.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.WebApi\\obj\\",
+        "outputPath": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -401,11 +407,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.ApplicationService\\Fgcm.Dale.ApplicationService.csproj": {
-                "projectPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.ApplicationService\\Fgcm.Dale.ApplicationService.csproj"
+              "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.ApplicationService\\Fgcm.Dale.ApplicationService.csproj": {
+                "projectPath": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.ApplicationService\\Fgcm.Dale.ApplicationService.csproj"
               },
-              "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\Fgcm.Dale.Domain.csproj": {
-                "projectPath": "D:\\Applications\\Date\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\Fgcm.Dale.Domain.csproj"
+              "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\Fgcm.Dale.Domain.csproj": {
+                "projectPath": "D:\\Applications\\Dale\\Back\\Fgcm.Dale\\Fgcm.Dale.Domain\\Fgcm.Dale.Domain.csproj"
               }
             }
           }
@@ -446,7 +452,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

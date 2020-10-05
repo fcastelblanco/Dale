@@ -10,6 +10,7 @@
       "Fgcm.Dale.Repository/1.0.0": {
         "dependencies": {
           "Autofac": "5.2.0",
+          "Fgcm.Dale.Data": "1.0.0",
           "Fgcm.Dale.Domain": "1.0.0",
           "Fgcm.Dale.Infraestructure": "1.0.0",
           "NETStandard.Library": "2.0.3"
@@ -1363,6 +1364,7 @@
           "Autofac": "5.2.0",
           "Autofac.Configuration": "5.1.0",
           "Fgcm.Dale.Domain": "1.0.0",
+          "Fgcm.Dale.Infraestructure": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.8",
           "Microsoft.Extensions.Configuration.Json": "5.0.0-rc.1.20451.14"
@@ -1382,8 +1384,8 @@
       "Fgcm.Dale.Infraestructure/1.0.0": {
         "dependencies": {
           "Autofac": "5.2.0",
-          "Fgcm.Dale.Data": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "3.1.8"
+          "Microsoft.EntityFrameworkCore": "3.1.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.8"
         },
         "runtime": {
           "Fgcm.Dale.Infraestructure.dll": {}
